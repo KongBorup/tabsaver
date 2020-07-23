@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Tabsaver",
+    "version": "1.0",
+    "description": "Tabsaver is a tool for saving tab groups to open them later.",
+
+    "icons": {
+        "48": "icons/tabsaver-48.png"
+    },
+
+    "browser_action": {
+        "default_icon": {
+            "48": "icons/tabsaver-48.png"
+        },
+        "default_popup": "popup.html"
+    },
+
+    "permissions" : [
+        "tabs",
+        "storage"
+    ]
+}
+

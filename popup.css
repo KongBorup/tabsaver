@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+* {
+    border-size: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+ul#saved-groups {
+    list-style-type: none;
+}
+
+ul#saved-groups > li {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+ul#saved-groups > li > span {
+    display: block;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+ul#saved-groups > li button.del-btn {
+    background: none;
+    font-size: 2rem;
+    border: none;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    padding-right: 0.5rem;
+}
+
+ul#saved-groups > li button.del-btn:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+ul#saved-groups > li:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+input[type='text']#new-group-name {
+    display: block;
+    margin: 1rem auto 0 auto;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    font-size: 0.8rem;
+}
+
+button#save-tabs-btn {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
